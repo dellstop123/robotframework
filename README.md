@@ -39,8 +39,6 @@ This Robot Framework is very easy to Learn, Code and Design.
    > If you want to run through tags into whole test Suite then replace file name `testDemo1.robot` with `.` 
 
 # [TestDemo1.robot](https://github.com/dellstop123/robotframework/blob/master/tests/testDemo1.robot)
-
-<details><summary> Details </summary>
  
 ## In this file, you will see only 1 Test Case having Unsuccessful Login.
      
@@ -118,7 +116,6 @@ This Robot Framework is very easy to Learn, Code and Design.
       
    </section>  
    </details>
-</details>
 
 # Test Case Run and Result File
 
