@@ -1,0 +1,20 @@
+==============================================================================
+testDemo6 :: To validate the Login Form                                       
+==============================================================================
+Validate card display in the Shopping Cart                              
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot:25
+    T:  Validate card display in the Shopping Cart    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot:6
+      open the browser with login url    
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+Keyword 'Generic.open the browser with login url' expected 1 argument, got 0.
+------------------------------------------------------------------------------
+testDemo6 :: To validate the Login Form                               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\pabot_results\0\output.xml

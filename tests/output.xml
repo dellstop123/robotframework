@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220831 10:13:50.648" rpa="false" schemaversion="3">
+<suite id="s1" name="testDemo7" source="C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo7.robot">
+<test id="s1-t1" name="Play with dictionary" line="6">
+<kw name="Create Dictionary" library="BuiltIn">
+<var>&amp;{data}</var>
+<arg>name=Guneet</arg>
+<arg>place=Jammu</arg>
+<arg>college=University of Jammu</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220831 10:13:50.674" level="INFO">&amp;{data} = { name=Guneet | place=Jammu | college=University of Jammu }</msg>
+<status status="PASS" starttime="20220831 10:13:50.673" endtime="20220831 10:13:50.674"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${data}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220831 10:13:50.674" level="INFO">{'name': 'Guneet', 'place': 'Jammu', 'college': 'University of Jammu'}</msg>
+<status status="PASS" starttime="20220831 10:13:50.674" endtime="20220831 10:13:50.674"/>
+</kw>
+<kw name="Dictionary Should Contain Key" library="Collections">
+<arg>${data}</arg>
+<arg>name</arg>
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<status status="PASS" starttime="20220831 10:13:50.675" endtime="20220831 10:13:50.675"/>
+</kw>
+<status status="PASS" starttime="20220831 10:13:50.673" endtime="20220831 10:13:50.675"/>
+</test>
+<status status="PASS" starttime="20220831 10:13:50.650" endtime="20220831 10:13:50.676"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="testDemo7">testDemo7</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

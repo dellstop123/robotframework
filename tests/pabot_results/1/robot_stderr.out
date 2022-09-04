@@ -1,0 +1,6 @@
+[ ERROR ] Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 6: Setting 'Test Setup' is not allowed in resource file.
+[ ERROR ] Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 7: Setting 'Test Teardown' is not allowed in resource file.
+[ ERROR ] Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\pageObject\CheckoutPage.robot' on line 6: Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 19: Resource file with 'Test Cases' section is invalid.
+[ ERROR ] Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 6: Setting 'Test Setup' is not allowed in resource file.
+[ ERROR ] Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 7: Setting 'Test Teardown' is not allowed in resource file.
+[ ERROR ] Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\pageObject\ConfirmationPage.robot' on line 6: Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 19: Resource file with 'Test Cases' section is invalid.

@@ -1,0 +1,6 @@
+datasources:6437d867a3ad972764a25c613e86feb977d5ed26
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:6fd2b64c257cfb22c0c2223a24770ca5f6fa363a
+--test testDemo6.Validate card display in the Shopping Cart
+--test testDemo6.Validate UnSuccessful Login

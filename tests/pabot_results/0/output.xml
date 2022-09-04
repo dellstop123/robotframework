@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220828 17:05:26.739" rpa="false" schemaversion="3">
+<suite id="s1" name="testDemo6" source="C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot">
+<test id="s1-t1" name="Validate card display in the Shopping Cart" line="25">
+<kw name="open the browser with login url" library="Generic" type="SETUP">
+<msg timestamp="20220828 17:05:27.299" level="FAIL">Keyword 'Generic.open the browser with login url' expected 1 argument, got 0.</msg>
+<status status="FAIL" starttime="20220828 17:05:27.298" endtime="20220828 17:05:27.299"/>
+</kw>
+<kw name="Close Browser Session" library="Generic" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220828 17:05:27.300" endtime="20220828 17:05:27.300"/>
+</kw>
+<status status="PASS" starttime="20220828 17:05:27.299" endtime="20220828 17:05:27.300"/>
+</kw>
+<status status="FAIL" starttime="20220828 17:05:27.297" endtime="20220828 17:05:27.302">Setup failed:
+Keyword 'Generic.open the browser with login url' expected 1 argument, got 0.</status>
+</test>
+<doc>To validate the Login Form</doc>
+<status status="FAIL" starttime="20220828 17:05:26.761" endtime="20220828 17:05:27.303"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="testDemo6">testDemo6</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220828 17:05:27.281" level="ERROR">Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 6: Setting 'Test Setup' is not allowed in resource file.</msg>
+<msg timestamp="20220828 17:05:27.281" level="ERROR">Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 7: Setting 'Test Teardown' is not allowed in resource file.</msg>
+<msg timestamp="20220828 17:05:27.281" level="ERROR">Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\pageObject\CheckoutPage.robot' on line 6: Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 19: Resource file with 'Test Cases' section is invalid.</msg>
+<msg timestamp="20220828 17:05:27.293" level="ERROR">Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 6: Setting 'Test Setup' is not allowed in resource file.</msg>
+<msg timestamp="20220828 17:05:27.293" level="ERROR">Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 7: Setting 'Test Teardown' is not allowed in resource file.</msg>
+<msg timestamp="20220828 17:05:27.293" level="ERROR">Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\pageObject\ConfirmationPage.robot' on line 6: Error in file 'C:\Users\guneet.singh2\PycharmProjects\RobotFrameworkDemo\tests\testDemo6.robot' on line 19: Resource file with 'Test Cases' section is invalid.</msg>
+</errors>
+</robot>
