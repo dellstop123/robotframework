@@ -41,11 +41,11 @@ This Robot Framework is very easy to Learn, Code and Design.
 # [TestDemo1.robot](https://github.com/dellstop123/robotframework/blob/master/tests/testDemo1.robot)
 
 <details><summary> Details </summary>
-  
   <p>
-      In this file, you will see only 1 Test Case having Unsuccessful Login
+      <strong>In this file, you will see only 1 Test Case having Unsuccessful Login</strong>
     
-      This is the Libraries or any external file we are import are defined in this section
+      In this section, we are importing the external libraries, files and we can also use Test Setup, Test Teardown, Suite Setup and Suite Teardown. We can import resource file in this section from anywhere in the project.
+     
        ```
          *** Settings ***
             Documentation  To validate the Login Form
@@ -54,7 +54,6 @@ This Robot Framework is very easy to Learn, Code and Design.
             Resource       ../pageObject/Generic.robot
     
        ```
-  </p>
-  
-<details>  
+   </p>  
+</details>  
 
